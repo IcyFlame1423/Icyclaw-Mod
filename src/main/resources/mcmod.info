@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ic",
+  "name": "Icclaw",
+  "description": "A Mod that does something in Hypixel Skyblock",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["icyflame1423 and maybe Swampyclaw"],
+  "credits": "none",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
