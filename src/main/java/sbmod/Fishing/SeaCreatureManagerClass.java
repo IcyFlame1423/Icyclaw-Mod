@@ -5,7 +5,7 @@ public class SeaCreatureManagerClass {
         //if statement stating that if the spawned method does not identify a seacreature spawned
         //or !=null then add one to the seacreature
     }
-    public static SeaCreature spawned(Stirng chatmessage){
-
+    public static SeaCreature spawned(String chatmessage){
+        return null;
     }
 }

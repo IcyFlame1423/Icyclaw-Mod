@@ -10,6 +10,5 @@ public class PlayerListener {
         String formatted = e.message.getFormattedText();
         /*Mod can respond upon the player receiving a chat message. This should work as it is done the same way
         as SBA*/
-
     }
 }

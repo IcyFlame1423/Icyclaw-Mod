@@ -26,7 +26,6 @@ public class SeaCreature{
     private String bait; //might remove bc only 2 have bait reg
     //additional variables for the conditions to fish it e.g. water/lava
 
-
     public SeaCreature(String nam, String spawnMessag, int fishLevelRe){
         name = nam;
         spawnMessage = spawnMessag;
@@ -72,6 +71,7 @@ public class SeaCreature{
         //code will be run 3 seconds after rod is pulled and checks the last 5 seconds of messages
         //subject to change because of potentially high runtime and requires to check all fishing mobs
         //may identify mods fishable under current conditions
+        return false;
     }
 
 
