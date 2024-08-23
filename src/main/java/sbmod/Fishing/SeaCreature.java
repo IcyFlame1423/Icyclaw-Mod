@@ -66,12 +66,26 @@ public class SeaCreature{
         bait=null;
     }
 
-    public boolean detectSpawn(){
+    public String setSpawnMessage(){
+        return spawnMessage;
+    }
+    public String getName(){
+        return name;
+    }
+    public int getFishLevelReq(){
+        return fishLevelReq;
+    }
+    public boolean canCatch(){
+        //returns whether or not sea creature can spawn
+        return false;//place holder
+    }
+
+    public boolean detectSpawn(String formatted){
         //if statement for if the spawnmessage is said in chat, returns true if the spawn message is said.
         //code will be run 3 seconds after rod is pulled and checks the last 5 seconds of messages
         //subject to change because of potentially high runtime and requires to check all fishing mobs
         //may identify mods fishable under current conditions
-        return false;
+        return formatted==spawnMessage;
     }
 
 
