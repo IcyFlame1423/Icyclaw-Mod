@@ -1,5 +1,6 @@
 package sbmod.listeners;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 
@@ -17,5 +18,10 @@ public class PlayerListener {
         if (formatted.equals("§b> A Squid appeared.")) {
 
         }
+    }
+
+    @SubscribeEvent
+    public void onPlayerInteract(PlayerInteractEvent e){
+        //when player interacts with an item/block
     }
 }
